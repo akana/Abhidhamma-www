@@ -1,0 +1,11 @@
+<article class="video-card">
+  <div class="fb-video"
+      data-href="{{include.videoUrl}}"
+      data-width="auto"
+      data-show-captions="false">
+  </div>
+  <div class="description">
+    <h2>{{include.rank}}. {{include.title}}</h2>
+    <p><span>{{include.name}}</span> - <span>{{include.date | date: "%d/%m/%Y" }}</span></p>
+  </div>
+</article>
