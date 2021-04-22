@@ -2,6 +2,8 @@
 layout: default
 title: Home
 ---
+
+<h1 class="page-title">អភិធម្មសង្គហ រូបបរមត្ថ បរិចេ្ឆទទី៦</h1>
 {% for post in paginator.posts reversed %}
   {% 
     include video-card.html 
@@ -10,6 +12,8 @@ title: Home
       rank=forloop.index
       date=post.date
       name=post.teacher
+      venue=post.venue
+      recordedBy=post.recordedBy
   %}
 {% endfor %}
 
