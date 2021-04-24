@@ -1,13 +1,19 @@
 # Site Build Settings
 
 # jekyll-paginate configuration
-paginate:            5
-
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
 permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+plugins:             [jekyll-paginate-v2, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 sass:
   sass_dir: assets/css
