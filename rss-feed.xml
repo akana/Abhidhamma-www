@@ -1,27 +1,130 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>{{ site.title | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-		<link>{{ site.github.url }}</link>
-		<atom:link href="{{ site.github.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
+		<title>អភិធម្មសង្គហ</title>
+		<description>បង្កើតជាមួយ [Millennial](https://lenpaul.github.io/Millennial/documentation/welcome-to-millennial.html) នៅ ព.ស ២៥៦៥ គ.ស ២០២១</description>
+		<link></link>
+		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author %}
-					<dc:creator>{{ post.author | xml_escape }}</dc:creator>
-				{% endif %}
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣៧</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-37.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-37.html</guid>
 			</item>
-		{% endfor %}
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣៦</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-36.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-36.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣៥</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-35.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-35.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣៤</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-34.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-34.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣៣</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-33.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-33.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣៣</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-32.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-32.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣១</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-31.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-31.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី៣០</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-30.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-30.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី២៩</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-29.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-29.html</guid>
+			</item>
+		
+			<item>
+				<title>រូបបរមត្ថ សប្តាហ៍ទី២៨ ផ្នែកទី៣</title>
+				
+				
+					<description>
+</description>
+				
+				<pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+				<link>/aphidhamma-6/aphidhamma-6-week-28-part-3.html</link>
+				<guid isPermaLink="true">/aphidhamma-6/aphidhamma-6-week-28-part-3.html</guid>
+			</item>
+		
 	</channel>
 </rss>
