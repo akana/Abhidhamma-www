@@ -2,11 +2,13 @@ language: ruby
 rvm:
   - 2.6.3
 
+install: bundle install
 script: jekyll build && htmlproofer ./_site
 
 # branch whitelist, only for GitHub Pages
 branches:
   only:
+  - master
   - gh-pages     # test the gh-pages branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
 
@@ -27,7 +29,7 @@ deploy:
   # Keep builded pages
   skip-cleanup: true
   # Directory where your generated files are located
-  local_dir: public
+  local_dir: _site
   # Github security/auth token
   github-token: $GITHUB_TOKEN
   # Incremental commit to keep old build/files from previous deployments
