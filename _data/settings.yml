@@ -6,8 +6,8 @@ disqus:
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: ''
 
-# menu:
-# - {name: 'Interesting Facts', folder: 'pages', file: 'facts.html'}
+menu:
+- {name: 'សៀវភៅ', folder: 'pages', file: 'book.md'}
 # - {name: 'Learning Resources', folder: 'pages', file: 'resources.html'}
 # - {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
 # - {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
